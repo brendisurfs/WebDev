@@ -39,3 +39,20 @@ command:
 	git log
 
 
+REMOVE FROM TRACKING
+
+command: 
+	git rm [FILE NAME]
+
+untracking is similar:
+
+	git rm --cached [FILENAME]
+
+
+
+EXTRA RESOURCES
+
+git-school.github.io/visualizing-git/
+
+
+
