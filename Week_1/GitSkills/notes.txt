@@ -1,0 +1,24 @@
+git uses hashes (sha1) to keep track of files within its ecosystem.
+
+git diff - a way of comparing changes within a git repo.
+
+commands: git diff --staged | git diff --[OPTION]
+
+git sees similarity between files, which doesn't always make sense (not a renamed file). 
+we can see the correct diff info with: 
+
+	git diff --staged --no-renames
+
+
+running
+	git diff
+
+just shows what changes have been made in the current working directory
+
+
+COMMITS 
+
+commits are easy. 
+skip the staging area: git commit -a 
+this basically skips the git add command. 
+
