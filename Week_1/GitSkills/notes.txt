@@ -22,3 +22,20 @@ commits are easy.
 skip the staging area: git commit -a 
 this basically skips the git add command. 
 
+
+PUSH 
+
+pushing to an origin repo: 
+	
+	git push origin [BRANCH]
+
+this is to send it back to github/gitlab etc.
+
+
+VIEW HISTORY
+
+command:
+
+	git log
+
+
