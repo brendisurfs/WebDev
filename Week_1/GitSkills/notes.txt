@@ -50,9 +50,16 @@ untracking is similar:
 
 
 
+
+
+BRANCHES
+
+to checkout a new branch: 
+	
+	git checkout -b [BRANCHNAME]
+
 EXTRA RESOURCES
 
 git-school.github.io/visualizing-git/
-
 
 
