@@ -28,6 +28,8 @@ func main() {
 	tripper.RoundTrip(r)
 
 	anonfunctions.Anon()
+
+	fmt.Fprintf("%f", double(3, 2, anonfunctions.MathExpr(SubExpr)))
 }
 
 // ----------------------------
@@ -39,4 +41,9 @@ type RoundTripCounter struct {
 func (rt *RoundTripCounter) RoundTrip(*http.Request) (*http.Response, error) {
 	rt.count += 1
 	return nil, nil
+
+}
+
+func double(f1, f2 float64, mathExpr func(float64, float64) float64) float64 {
+	return 2 * mathExpr(f1, f2)
 }

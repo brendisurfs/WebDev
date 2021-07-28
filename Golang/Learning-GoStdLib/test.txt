@@ -1,0 +1,10 @@
+line 1
+line 2
+line 3
+line 4
+total 2
+drwxrwxrwx 1 root root 352 Jul 24 15:13 .
+drwxrwxrwx 1 root root 264 Jul 24 15:13 ..
+-rwxrwxrwx 1 root root 296 Jul 24 15:14 bufio.go
+-rwxrwxrwx 1 root root  57 Jul 24 15:03 go.mod
+-rwxrwxrwx 1 root root  28 Jul 24 15:13 test.txt
